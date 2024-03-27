@@ -7,7 +7,7 @@ city            varchar(8),
 lng             double precision,
 lat             double precision,
 primary key(code));
-COMMENT ON COLUMN city.code IS '市町村code';
+COMMENT ON COLUMN city.code IS '市町村code https://www.soumu.go.jp/denshijiti/code.html';
 
 
 CREATE TABLE IF NOT EXISTS suumo_search_result_url (
